@@ -19,9 +19,6 @@
 				<image  src="../../static/image/win.gif" lazy-load="true"></image>
 			</view>
 		</u-transition>
-		
-		
-		
 	</view>
 </template>
 
