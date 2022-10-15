@@ -1,5 +1,7 @@
 <template>
-	<view></view>
+	<view>
+		首页
+	</view>
 </template>
 
 <script>
