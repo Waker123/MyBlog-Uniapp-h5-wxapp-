@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import App from './App'
 import uView from "uview-ui";
+import store from 'store/index.js'
 //公共js
 import PubFuc from'./publicjs/common'
 
@@ -11,6 +12,7 @@ App.mpType = 'app'
 Vue.use(uView);
 Vue.prototype.$pubFuc = PubFuc
 const app = new Vue({
-    ...App
+    ...App,
+	store
 })
 app.$mount()
