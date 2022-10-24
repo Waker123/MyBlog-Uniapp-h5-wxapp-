@@ -140,7 +140,7 @@
 	font-size: 40rpx;
 	font-family: 'yuan';
 	font-weight: 700;
-	width: 150rpx;
+	width: 200rpx;
 	height: 80rpx;
 	line-height: 70rpx;
 	border: 6rpx solid black;
