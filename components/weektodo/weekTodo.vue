@@ -119,7 +119,12 @@
 			width: 400rpx;
 			padding: 20rpx;						
 			.planButton {
+			/* #ifdef H5 */	
 			width: 350rpx;
+			/* #endif */
+			/* #ifdef MP-WEIXIN */	
+			width: 400rpx;
+			/* #endif */
 			height: 80rpx;
 			position: absolute;
 			left: 50%;

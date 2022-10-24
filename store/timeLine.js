@@ -3,10 +3,13 @@ import {DAY_TO_31,getMonth,getYear} from '../untils/constant.js'
 export default {
 	namespaced:true,
 	mutations:{
-		
+		changeTimeLineState(state,value){
+			state.timeLineState = value;
+		}
 	},
 	state:{
 		timeList:getDailyData(),
+		timeLineState:false,
 	},
 }
 

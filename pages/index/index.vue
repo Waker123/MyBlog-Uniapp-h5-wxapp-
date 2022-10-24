@@ -6,6 +6,7 @@
 		<todo-list class='todoList'></todo-list>
 		<week-todo class= 'weekTodo'></week-todo>
 		<daily-task class = 'dailyTask'></daily-task>
+		<time-line class='timeLine'></time-line>
 	</view>
 </template>
 
@@ -25,6 +26,8 @@
 			backgroundThree,
 			todoList,
 			weekTodo,
+			dailyTask,
+			timeLine,
 		}
 	}
 </script>
@@ -47,17 +50,20 @@
 		.backgroundThree{
 			top: 3242rpx;
 		}
-		.todoList{
+		.todoList,.weekTodo,.dailyTask{
 			position: absolute;
-			top: 200rpx;
 			left: 50%;
 			transform: translateX(-50%);
+		}
+		.todoList{
+			top: 200rpx;
 		}
 		.weekTodo{
-			position: absolute;
 			top: 2100rpx;
-			left: 50%;
-			transform: translateX(-50%);
 		}
+		.dailyTask{
+			top: 3536rpx;
+		}
+		
 	}
 </style>
